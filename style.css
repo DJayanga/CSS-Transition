@@ -1,0 +1,43 @@
+/* <-- Home Header Section --> */
+
+.rh-content-wrap  {
+    padding-top: 0px !important;
+}
+
+
+.header-raw-design{
+  max-height: 300px !important;
+}
+.header-raw-design .background-1 {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+    max-height: 300px !important;
+}
+
+.header-raw-design .background-2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+    max-height: 300px !important;
+}
+
+.header-raw-design .background-3 {
+  animation-duration:5s;
+    max-height: 300px !important;
+}
+
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
